@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.1
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle react_demo@1.0.0~prebuild: react_demo@1.0.0
+6 silly lifecycle react_demo@1.0.0~prebuild: no script for prebuild, continuing
+7 info lifecycle react_demo@1.0.0~build: react_demo@1.0.0
+8 verbose lifecycle react_demo@1.0.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle react_demo@1.0.0~build: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\besant\react-todo\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\besant\react-todo\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Anusha\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin
+10 verbose lifecycle react_demo@1.0.0~build: CWD: E:\besant\react-todo
+11 silly lifecycle react_demo@1.0.0~build: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 8070 --history-api-fallback' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1029:11)
+12 verbose stack     at process.kill (internal/process.js:188:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:188:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+13 verbose cwd E:\besant\react-todo
+14 error Windows_NT 6.3.9600
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+16 error node v7.7.1
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
